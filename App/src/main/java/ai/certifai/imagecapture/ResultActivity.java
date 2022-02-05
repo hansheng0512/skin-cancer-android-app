@@ -49,6 +49,8 @@ public class ResultActivity extends AppCompatActivity
         File imageFile = getImageFile();
         Bitmap imageBitmap = ImageReader.readFileToImage(imageFile);
 
+
+
         setImage(imageBitmap);
     }
 
